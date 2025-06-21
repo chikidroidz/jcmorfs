@@ -134,7 +134,7 @@ const NavBar: React.FC = () => {
                 e.preventDefault(); // Prevent default anchor jump
                 handleScroll(link.id); // Use custom smooth scroll
               }}
-              className="text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-gray-900 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+              className="text-white block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
             >
               {link.label}
             </a>
