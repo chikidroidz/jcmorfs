@@ -49,7 +49,7 @@ const About: React.FC<AboutProps> = ({
                 "https://ui-avatars.com/api/?name=User&background=4F46E5&color=fff&size=128"
               }
               alt={`${name}'s avatar`}
-              className="w-full h-40 rounded-full object-cover border-4 border-indigo-500"
+              className="w-40 h-40 rounded-full object-cover border-4 border-indigo-500"
             />
           </div>
 
